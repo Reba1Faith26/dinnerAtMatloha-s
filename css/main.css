@@ -1,0 +1,50 @@
+/*coding for mobile navigation start here*/
+.para1,.para2,.para3{
+    background-color:white !important;
+    height:3px;
+    width:30px;
+}
+.para2,.para3{
+    margin-top:-10px;
+}
+.menu-button{
+    float:right;
+    margin-top:-28px;
+}
+div .mobile-ul .mobile-li{
+    list-style:none;
+}
+div .mobile-ul .mobile-li a{
+    color:black !important;
+    line-height:50px;
+}
+.mobile-navigation-list{
+    position:absolute;
+    height:100% !important;
+    top:50px;
+    display:none;
+}
+.mobile-navigation-menu{
+    height:60px;
+}
+.brand-name{
+    margin-top:8px;
+}
+.mobile-img-container{
+    margin-top:-180px !important;
+}
+@media screen and (max-width:240px){
+    .brand-name{
+        font-size:15px;
+        margin-top:15px;
+    }
+    .para1,.para2,.para3{
+        height:2px;
+        width:15px;
+    }
+    .menu-button{
+        margin-top:-25px;
+    }
+}
+/*coding for mobile navigation ended here*/
+/*coding for mobile ended here*/
